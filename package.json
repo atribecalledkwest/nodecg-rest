@@ -9,5 +9,8 @@
     },
     "nodecg": {
         "compatibleRange": ">0.9.0"
+    },
+    "dependencies": {
+        "express": "^4.16.2"
     }
 }
