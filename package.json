@@ -8,7 +8,7 @@
         "url": "atribecalledkwest.github.io"
     },
     "nodecg": {
-        "compatibleRange": ">0.9.0"
+        "compatibleRange": ">=0.9.0"
     },
     "dependencies": {
         "body-parser": "^1.18.3",
