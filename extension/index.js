@@ -5,7 +5,7 @@ module.exports = (nodecg) => {
     let app = express();
     app.use(bodyparser.json());
 
-    app.get("/rest/message/:name", (req, res) => {
+    app.post("/rest/message/:name", (req, res) => {
         if(req.body.hasOwnProperty("data")) {
             nodecg.sendMessage(req.params.name, req.body["data"]);
         } else {
@@ -16,7 +16,7 @@ module.exports = (nodecg) => {
         });
     });
 
-    app.get("/rest/message/:bundleName/:name", (req, res) => {
+    app.post("/rest/message/:bundleName/:name", (req, res) => {
         if(req.body.hasOwnProperty("data")) {
             nodecg.sendMessageToBundle(req.params.name, req.params.bundleName, req.body["data"]);    
         } else {
