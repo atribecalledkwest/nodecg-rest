@@ -1,7 +1,7 @@
 {
     "name": "nodecg-rest",
-    "version": "0.1.0",
-    "description": "A bundle that lets you send messages to NodeCG over a REST API.",
+    "version": "0.2.0",
+    "description": "A bundle that lets you communicate with NodeCG over a REST API.",
     "author": {
         "name": "Karen West",
         "email": "atribecalledkwest.97@gmail.com",
